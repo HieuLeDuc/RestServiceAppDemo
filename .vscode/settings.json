@@ -1,0 +1,6 @@
+{
+    "appService.preDeployTask": "package:rest-service-app",
+    "appService.deploySubpath": "target\\rest-service-app-0.0.1-SNAPSHOT.jar",
+    "appService.defaultWebAppToDeploy": "/subscriptions/1d0703e4-3dc5-4365-b3cb-a4b478964145/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/ScalingDemoNew",
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

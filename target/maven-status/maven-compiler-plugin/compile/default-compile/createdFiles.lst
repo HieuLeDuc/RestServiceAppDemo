@@ -1,0 +1,11 @@
+de\home\vs\model\Customer.class
+de\home\vs\resource\ItemsResource.class
+de\home\vs\rest_service_app\RestService.class
+de\home\vs\model\DataSource.class
+de\home\vs\model\Order.class
+de\home\vs\model\Itemblock.class
+de\home\vs\resource\ItemDetailedViewResource.class
+de\home\vs\resource\OrderDetailedViewResource.class
+de\home\vs\resource\DemoRessource.class
+de\home\vs\resource\OrderResource.class
+de\home\vs\model\Item.class
