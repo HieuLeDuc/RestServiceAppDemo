@@ -16,7 +16,7 @@ public class RestService
     public static void main( String[] args )
     {
         System.out.println( "starting REST service demo...." );
-        InetSocketAddress addr = new InetSocketAddress("0.0.0.0", 80);
+        InetSocketAddress addr = new InetSocketAddress("0.0.0.0", 8080);
         Server server = new Server(addr);
 
         ServletContextHandler ctx = new ServletContextHandler(ServletContextHandler.NO_SESSIONS);
