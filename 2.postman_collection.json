@@ -7,21 +7,9 @@
 	"item": [
 		{
 			"name": "View all orders",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "    {\r\n        \"id\": 0,\r\n        \"customerid\" : 1,\r\n        \"itemblock\" : {\r\n            \"itemid\" : 5\r\n        }\r\n    }\r\n    \r\n",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
 				"url": {
 					"raw": "127.0.0.1:8080/rest/orders",
 					"host": [
@@ -136,9 +124,6 @@
 		},
 		{
 			"name": "View item #1",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
 				"method": "GET",
 				"header": [
@@ -167,15 +152,6 @@
 						"disabled": true
 					}
 				],
-				"body": {
-					"mode": "raw",
-					"raw": "[\r\n    {\r\n        \"id\": 0,\r\n        \"name\": \"demo\",\r\n        \"description\": \"test\",\r\n        \"price\": 20.0\r\n    }\r\n]",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
 				"url": {
 					"raw": "127.0.0.1:8080/rest/items/1",
 					"host": [
